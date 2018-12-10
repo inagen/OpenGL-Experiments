@@ -6,6 +6,7 @@
 #include "shader.h"
 #include "buffer.h"
 #include "array.h"
+#include "vector2.h"
 
 
 using namespace MyEngine;
