@@ -21,7 +21,7 @@ struct Vector2 {
 	Vector2();
 	Vector2(T x = 0, T y = 0): m_x(x), m_y(y) {}
 	Vector2(Vector2<T>& in)	 : m_x(in.m_x), m_y(in.m_y) {}
-	Vector2(T in) 		 	 : m_x(in), m_y(in) {}
+	Vector2(T in)			 : m_x(in), m_y(in) {}
 
 	Vector2<T> XX() const { return Vector2<T>(m_x, m_x); }
 	Vector2<T> XY() const { return Vector2<T>(m_x, m_y); }
