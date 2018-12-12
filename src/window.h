@@ -15,8 +15,10 @@ public:
 	void clear();
 	void swapBuffers();
 	void pollEvents();
-private:
+
 	GLFWwindow* m_window;
+private:
+	
 	unsigned m_windowWidth;
 	unsigned m_windowHeight;
 };
